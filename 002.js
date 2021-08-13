@@ -1,4 +1,5 @@
 //Classificando um triangulo pelos seus lados
+
 ClasTriang = (a, b, c) => {
     if (a == b && b == c)
     console.log(`Equilátero: Os três lados são iguais, lado 1 = ${a}, lado 2 = ${b}, lado 3 = ${c}.`)

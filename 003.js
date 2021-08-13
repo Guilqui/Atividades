@@ -1,4 +1,5 @@
 //Calculadora de potência
+
 let Bas = 0
 let Exp = 0
 let Bas2 = 1

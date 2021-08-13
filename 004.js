@@ -1,10 +1,11 @@
-//Primeira parte de uma calculadora de divisão que mostra o resto da divisão e o resultado dela
+//calculadora de divisão que mostra o resto da divisão e o resultado dela
+
 Divisao = (dvd, dvs) => {
     let res = dvd / dvs;
+    let rest = res - (parseInt(res.toFixed()));
     console.log(res.toFixed());
-    res = parseInt(res);
-    return res;
+    console.log(rest)
+    
 }
 
 Divisao(10, 3)
-console.log(Divisao(tipeof.res))

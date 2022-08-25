@@ -5,10 +5,8 @@ mat = (a, b) => {
     let sub = a - b
     let mult = a * b
     let div = a / b
-    console.log(`A soma, subtração, multiplicação e divisão respectivamente dos numeros ${a} e ${b} são: ${soma}, ${sub}, ${mult}, ${div}.`)
+    console.log(`A soma = ${soma} , subtração = ${sub}, multiplicação = ${mult} e divisão = ${div} dos números ${a} e ${b}.`)
     return soma, sub, mult, div
 }
 
-mat(1, 2)
-mat(6, 7)
-mat(22, 45)
+mat (24, 4)
